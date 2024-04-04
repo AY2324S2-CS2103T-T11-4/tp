@@ -296,10 +296,10 @@ Examples:
 
 Action | Format, Examples
 --------|------------------
-**Add** | `add n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS [t/TAG]…​` <br> e.g., `add n/James Ho p/22224444 e/jamesho@example.com a/123, Clementi Rd, 1234665 t/friend t/colleague`
-**Clear** | `clear`
+**Add** | `add TYPE /n NAME /i ID /p PHONE /e EMAIL` <br> e.g., `add stu /n Alex Yeoh /i A0777777L /p 87438807 /e alexyeoh@example.com` 
 **Delete** | `delete INDEX`<br> e.g., `delete 3`
-**Edit** | `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee e/jameslee@example.com`
-**Find** | `find KEYWORD [MORE_KEYWORDS]`<br> e.g., `find James Jake`
+**Edit** | `edit INDEX [/n NAME] [/p PHONE] [/e EMAIL]`<br> e.g.,`edit 1 /p 91234567 /e johndoe@example.com`
+**Find** | `find [stu/ta] [/n NAME] [/i ID] [/p PHONE] [/e EMAIL] [/t TAGS...]`<br> e.g., `find stu /n John`
+**Available** | `available /g TUTORIAL`<br> e.g., `available /g TUES08`
 **List** | `list`
 **Help** | `help`
