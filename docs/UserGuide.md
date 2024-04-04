@@ -302,4 +302,9 @@ Action | Format, Examples
 **Find** | `find [stu/ta] [/n NAME] [/i ID] [/p PHONE] [/e EMAIL] [/t TAGS...]`<br> e.g., `find stu /n John`
 **Available** | `available /g TUTORIAL`<br> e.g., `available /g TUES08`
 **List** | `list`
+**Create Valid Tutorial Tag** | `tuttag add /t TAG`<br> e.g., `tuttag add /t TUE08`
+**Delete Valid Tutorial Tag** | `tuttag del /t TAG`<br> e.g., `tuttag del /t WED09`
+**List Valid Tutorial Tags** | `tuttag list`
+**Mark Tag** | `mark INDEX /t TAG /ts TAGSTATUS`<br> e.g., `mark 1 /t Assignment1 /ts cg`
+**Remove Tag** | `removetag INDEX /t TAG`<br> e.g., `removetag 1 /t Assignment1`
 **Help** | `help`
