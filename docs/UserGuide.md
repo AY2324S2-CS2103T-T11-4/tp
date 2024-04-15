@@ -326,7 +326,7 @@ with specified status would be added to any listed contact that previously did n
 
 <div markdown="span" class="alert alert-primary">
 
-:info: **Note:**<br/>
+:information_source: **Note:**<br/>
 
 For **Tutorial** tags, the tutorial name must be that of a valid Tutorial tag in the 
 list of available tutorial sessions defined with the [tuttag](#adding-a-tutorial-tuttag-add) command.
@@ -389,8 +389,8 @@ Format: `available /g TUTORIAL`
 
 :bulb: **Notes:**<br>
 
-* Only one Tutorial tag name can be specified per `available` command. <br>
-* Thus, after each `/g` flag, there can only be one Tutorial tag name specified, i.e. `available /g WED10 THU10` is an invalid input. <br>
+* Only one Tutorial tag name can be specified per `available` command. <br/>
+* Thus, after each `/g` flag, there can only be one Tutorial tag name specified, i.e. `available /g WED10 THU10` is an invalid input. <br/>
 * There can also only be one '/g' flag supplied per `available` command. If more than one `/g` flag is supplied within the same `available` command, 
 only the tag name after the last `/g` will be processed, i.e. in `available /g WED10 /g THU10`, only `THU10
 will be taken in as a parameter while `WED10` will be ignored.
