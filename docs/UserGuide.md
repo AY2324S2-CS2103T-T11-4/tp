@@ -326,7 +326,7 @@ with specified status would be added to any listed contact that previously did n
 
 <div markdown="span" class="alert alert-primary">
 
-:bulb: **Note:**<br>
+:info: **Note:**<br/>
 
 For **Tutorial** tags, the tutorial name must be that of a valid Tutorial tag in the 
 list of available tutorial sessions defined with the [tuttag](#adding-a-tutorial-tuttag-add) command.
