@@ -74,7 +74,7 @@ for a quick refresher.
 
 ## Basic Features
 
-While using TrAcker for the first time might be overwhelming, fret not as we are here :sun: to guide you through. Let's 
+While using TrAcker for the first time might be overwhelming, fret not as we are here to guide you through. Let's 
 go through the basic commands to get you started!
 
 <div markdown="span" class="alert alert-primary">
@@ -171,8 +171,6 @@ Format: `find [stu | ta] [/n NAME] [/i ID] [/p PHONE] [/e EMAIL] [/t TAGS...]`
 * The order of the keywords under each flag does not matter. e.g. `Hans Bo` will match `Bo Hans`
 * Subwords will be matched e.g. `Han` will match `Hans`
 
-<div markdown="span" class="alert alert-info">:information_source: **Info:** <br>
-
 * Between optional fields supplied, the search filters for persons meeting criteria specified for ALL fields at the 
 same time, (i.e. `AND` search). e.g. `find stu /n John /i 6Z` will find all Students who have both a name containing 
 `John` and an ID containing `6Z`. <br>
@@ -187,7 +185,6 @@ same time, (i.e. `AND` search). e.g. `find stu /n John /i 6Z` will find all Stud
 or an `assignment1` tag<br>
     e.g. `find stu /n John /t wed assignment1` will find all persons with a name containing `John` AND
 either a tutorial tag where `wed` is a subword or an `assignment1` tag
-</div>
 
 Examples:
 * `find ta` returns all TAs
@@ -217,7 +214,7 @@ Examples:
 :bulb: **Warning Popup:**<br>
 
 * Oops! It looks like you're about to perform an action that could lead to unintended data loss. No worries though - 
-we've got your back! To make sure everything stays safe and sound, we just need a quick confirmation from you. <br>
+we've got your back! To make sure everything stays safe and sound, we just need a quick confirmation from you. <br/>
 * We have introduced toggling using your left and right arrow keys, as well as the enter key for increased efficiency.
 
 </div>
@@ -300,8 +297,8 @@ created and attached to the person(s).
 
 :bulb: **Notes:**<br>
 
-* The type of the tag(s) to be updated/created are specified through their tag status<br>
-* If a tag is to be marked with the status `cg`, `cb`, `ig` or `ib`, it would be identified as an assignment tag and displayed together with other assignment tags in the UI. Similarly for attendance and tutorial tags.<br>
+* The type of the tag(s) to be updated/created are specified through their tag status. <br/>
+* If a tag is to be marked with the status `cg`, `cb`, `ig` or `ib`, it would be identified as an assignment tag and displayed together with other assignment tags in the UI. Similarly for attendance and tutorial tags. <br/>
 * If a specific person(s) already has a tag with the same tag name as the tag that is to be marked, but his existing tag has a different tag type as the type identified by new status from the mark command, his original tag would then be replaced by the tag with new type and status but the same tag name.
 
 </div>
@@ -331,7 +328,7 @@ with specified status would be added to any listed contact that previously did n
 
 :bulb: **Note:**<br>
 
-**:information_source: Note:** For **Tutorial** tags, the tutorial name must be that of a valid Tutorial tag in the 
+For **Tutorial** tags, the tutorial name must be that of a valid Tutorial tag in the 
 list of available tutorial sessions defined with the [tuttag](#adding-a-tutorial-tuttag-add) command.
 For example, in the third example above, `TUE08` should be added as a tutorial tag first using [`tuttag add /t TUE08`](#adding-a-tutorial-tuttag-add).
 
@@ -392,8 +389,8 @@ Format: `available /g TUTORIAL`
 
 :bulb: **Notes:**<br>
 
-* Only one Tutorial tag name can be specified per `available` command.
-* Thus, after each `/g` flag, there can only be one Tutorial tag name specified, i.e. `available /g WED10 THU10` is an invalid input
+* Only one Tutorial tag name can be specified per `available` command. <br>
+* Thus, after each `/g` flag, there can only be one Tutorial tag name specified, i.e. `available /g WED10 THU10` is an invalid input. <br>
 * There can also only be one '/g' flag supplied per `available` command. If more than one `/g` flag is supplied within the same `available` command, 
 only the tag name after the last `/g` will be processed, i.e. in `available /g WED10 /g THU10`, only `THU10
 will be taken in as a parameter while `WED10` will be ignored.
